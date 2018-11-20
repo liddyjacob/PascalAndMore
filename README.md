@@ -5,10 +5,11 @@ TO RUN: type
 ```python pyramid.py --n <int> --ops <comma separated list>```
 n >= 1; ops: +, -, *, %, div
 
+```
 - : inner - outer
 / : inner / outer
 % : outer % inner
-
+```
 Example: python pyramid.py --n 8 --ops +
 (Generates pascal's triangle)
 
